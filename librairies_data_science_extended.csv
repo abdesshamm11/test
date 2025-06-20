@@ -1,0 +1,95 @@
+Librairie,Nom PyPI,Description,Catégorie,Deep Learning,Exposition Internet,Dépendance OS
+Pandas,pandas,Manipulation et analyse de données tabulaires,Manipulation de données,False,False,False
+NumPy,numpy,Calcul scientifique et manipulation de matrices,Manipulation de données,False,False,False
+Polars,polars,Alternative à Pandas rapide et parallèle,Manipulation de données,False,False,False
+Dask,dask,Traitement de données distribué,Manipulation de données,False,False,False
+Vaex,vaex,Manipulation de grands DataFrames hors mémoire,Manipulation de données,False,False,False
+Matplotlib,matplotlib,Bibliothèque de base pour créer des graphiques,Visualisation,False,False,False
+Seaborn,seaborn,Visualisation statistique basée sur matplotlib,Visualisation,False,False,False
+Plotly,plotly,Graphiques interactifs pour le web,Visualisation,False,False,False
+Bokeh,bokeh,Visualisation web interactive,Visualisation,False,False,False
+Altair,altair,Visualisation déclarative simple,Visualisation,False,False,False
+Holoviews,holoviews,Création rapide de graphiques interactifs,Visualisation,False,False,False
+Scikit-learn,scikit-learn,"ML classique : classification, régression, clustering",Machine Learning,False,False,False
+XGBoost,xgboost,Boosting performant,Machine Learning,False,False,False
+LightGBM,lightgbm,Boosting rapide et efficace,Machine Learning,False,False,False
+CatBoost,catboost,Boosting pour données catégorielles,Machine Learning,False,False,False
+TPOT,tpot,AutoML basé sur la génétique,Machine Learning,False,False,False
+FLAML,flaml,AutoML rapide,Machine Learning,False,False,False
+H2O.ai,h2o,ML et AutoML distribué,Machine Learning,False,False,False
+TensorFlow,tensorflow,Framework de Deep Learning de Google,Deep Learning,True,False,True
+Keras,keras,API haut niveau sur TensorFlow,Deep Learning,True,False,False
+PyTorch,torch,Framework populaire pour le Deep Learning,Deep Learning,True,False,True
+Fastai,fastai,Abstraction sur PyTorch,Deep Learning,True,False,False
+Hugging Face Transformers,transformers,Modèles NLP avancés,Deep Learning,True,False,False
+Diffusers,diffusers,Génération d’image avec modèles diffusion,Deep Learning,True,False,False
+spaCy,spacy,Traitement du langage industriel,NLP,False,False,False
+NLTK,nltk,Traitement du langage académique,NLP,False,False,False
+TextBlob,textblob,Analyse de texte simple,NLP,False,False,False
+Gensim,gensim,"Topic modeling, Word2Vec",NLP,False,False,False
+SentenceTransformers,sentence-transformers,Embeddings de phrases,NLP,True,False,False
+Statsmodels,statsmodels,Tests statistiques et régressions,Statistiques,False,False,False
+SciPy,scipy,Calcul scientifique et distributions,Statistiques,False,False,False
+Prophet,prophet,Prévision temporelle par Meta,Statistiques,False,False,False
+PyMC,pymc,Modélisation bayésienne,Statistiques,False,False,False
+SHAP,shap,Explications locales et globales,Explainabilité,False,False,False
+LIME,lime,Explication locale approximée,Explainabilité,False,False,False
+ELI5,eli5,Outils d’explication divers,Explainabilité,False,False,False
+Airflow,apache-airflow,Orchestration de workflow,Data Engineering,False,True,False
+Luigi,luigi,Pipeline de traitement de données,Data Engineering,False,False,False
+Kedro,kedro,Framework structurant pour ML,Data Engineering,False,False,False
+Prefect,prefect,Orchestration moderne,Data Engineering,False,True,False
+Feature-engine,feature-engine,Ingénierie de features,Préparation des données,False,False,False
+Dirty_cat,dirty-cat,Encodage de variables bruitées,Préparation des données,False,False,False
+pyjanitor,pyjanitor,Extension de Pandas pour le nettoyage,Préparation des données,False,False,False
+Jupyter,jupyter,Notebooks interactifs,Environnement,False,False,False
+IPython,ipython,Console interactive Python,Environnement,False,False,False
+MLflow,mlflow,Tracking des expériences ML,Environnement,False,False,True
+Optuna,optuna,Optimisation d’hyperparamètres,Environnement,False,False,False
+Hydra,hydra-core,Gestion de configuration,Environnement,False,False,False
+Great Expectations,great-expectations,Validation des données,Environnement,False,False,False
+Openpyxl,openpyxl,Lecture/écriture de fichiers Excel (.xlsx),Manipulation de données,False,False,False
+xlrd,xlrd,Lecture de fichiers Excel (.xls),Manipulation de données,False,False,False
+pyarrow,pyarrow,Manipulation de fichiers Parquet et Arrow,Manipulation de données,False,False,True
+Dash,dash,Framework web pour dashboards interactifs,Visualisation,False,True,False
+Streamlit,streamlit,Création d'applications web pour la data science,Visualisation,False,True,False
+Imbalanced-learn,imbalanced-learn,Gestion des classes déséquilibrées,Machine Learning,False,False,False
+Joblib,joblib,Sérialisation et parallélisation,Machine Learning,False,False,False
+ONNX,onnx,Standard d’échange de modèles IA,Deep Learning,True,False,True
+TensorRT,tensorrt,Optimisation des modèles IA pour l’inférence,Deep Learning,True,False,True
+transformers[sentencepiece],transformers[sentencepiece],Install complet pour NLP avec tokenizers,NLP,True,False,False
+pyarabic,pyarabic,Traitement de texte en langue arabe,NLP,False,False,False
+arch,arch,Analyse des séries financières,Statistiques,False,False,False
+linearmodels,linearmodels,Modèles économétriques,Statistiques,False,False,False
+sklearn-evaluation,sklearn-evaluation,Visualisation des résultats de scikit-learn,Explainabilité,False,False,False
+datatable,datatable,Alternative à pandas pour big data,Préparation des données,False,False,False
+pydantic,pydantic,Validation de données avec modèles,Préparation des données,False,False,False
+tqdm,tqdm,Barres de progression dans les boucles,Environnement,False,False,False
+loguru,loguru,Logging simplifié et puissant,Environnement,False,False,False
+rich,rich,"Affichage riche dans le terminal (tables, logs)",Environnement,False,False,False
+OpenCV,opencv-python,Traitement d'image et vidéo,Computer Vision,False,False,True
+scikit-image,scikit-image,Traitement d'image scientifique,Computer Vision,False,False,True
+imgaug,imgaug,Augmentation de données d'image,Computer Vision,False,False,True
+albumentations,albumentations,Augmentations rapides pour vision,Computer Vision,False,False,True
+detectron2,detectron2,Framework de détection d’objets par Facebook,Computer Vision,True,False,True
+Tesseract,pytesseract,OCR open-source par Google (wrapper pytesseract),OCR,False,False,True
+EasyOCR,easyocr,OCR multilingue basé sur PyTorch,OCR,True,False,True
+Kili,kili,Annotation et gestion de données OCR,OCR,False,True,False
+SpeechRecognition,SpeechRecognition,Interface pour divers moteurs de reconnaissance vocale,Speech-to-Text,False,False,True
+Whisper,whisper,Modèle de transcription audio par OpenAI,Speech-to-Text,True,False,True
+torchaudio,torchaudio,Librairie audio pour PyTorch,Speech-to-Text,True,False,True
+librosa,librosa,Analyse et traitement audio,Speech-to-Text,False,False,True
+Auto-sklearn,auto-sklearn,AutoML basé sur scikit-learn et SMAC,AutoML,False,False,True
+H2O AutoML,h2o,AutoML complet et distribué,AutoML,False,False,True
+Featuretools,featuretools,Génération automatique de features,Feature Engineering,False,False,False
+TSFresh,tsfresh,Extraction automatique de features pour séries temporelles,Feature Engineering,False,False,False
+NetworkX,networkx,Analyse de graphes,Graphes,False,False,False
+PyG (PyTorch Geometric),torch-geometric,Deep learning pour graphes,Graphes,True,False,True
+LightFM,lightfm,Système de recommandation hybride,Recommandation,True,False,True
+Surprise,scikit-surprise,Système de recommandation basé sur scikit-learn,Recommandation,False,False,False
+Darts,darts,"Prévision multivariée, multihorizon, et deep learning",Séries temporelles,True,False,False
+NeuralProphet,neuralprophet,Extension de Prophet avec DL (Meta),Séries temporelles,True,False,True
+GeoPandas,geopandas,Traitement de données géospatiales,Géospatiale,False,False,True
+Folium,folium,Cartographie interactive basée sur Leaflet.js,Géospatiale,False,True,False
+blosc,blosc,Compression haute performance pour la science des données,Performance,False,False,True
+zarr,zarr,Stockage parallèle de données scientifiques,Performance,False,False,False
